@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <section class="notification-counter flexbox">
+        <div class="flexbox">
+          <h1 class="notification-title">Notifications</h1>
+          <p class="counter">3</p>
+        </div>
+
+        <button class="noti-btn">Mark all as read</button>
+      </section>
+
+      <section class="main-section">
+        <div class="notifications active">
+          <div class="picture-container">
+            <img src="assets/images/avatar-mark-webber.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+                <span class="bold">Mark Webber </span class="bold-gray">reacted to your recent post<span class="bold-gray"> My first tournament today! </span> <div class="red-dot"></div> 
+            </div>
+                  
+            <div class="timer">
+              <p>1m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications active">
+          <div class="picture-container">
+            <img src="assets/images/avatar-angela-gray.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+              <span class="bold">Angela Gray</span> followed you <div class="red-dot"></div> 
+            </div>
+                  
+            <div class="timer">
+              <p>5m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications active">
+          <div class="picture-container">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+              <span class="bold">Jacob Thompson</span> has joined your group <span class="bold-blue">Chess Club</span> <div class="red-dot"></div> 
+            </div>
+                  
+            <div class="timer">
+              <p>1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications">
+          <div class="picture-container">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+              <span class="bold">Rizky Hasanuddin</span> sent you a private message
+            </div>
+                  
+            <div class="timer">
+              <p>5 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="direct-message">
+          <p class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.</p>
+        </div>
+
+        <div class="notifications space-between">
+
+          <section class="flexbox">
+
+          <div class="picture-container">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+              <span class="bold">Kimberly Smith</span> commented on your picture
+            </div>
+                  
+            <div class="timer">
+              <p>1 week ago</p>
+            </div>
+          </div>
+
+          </section>
+
+          <picture >
+            <img src="assets/images/image-chess.webp" alt="" class="chess-pic">
+          </picture>
+        </div>
+
+        <div class="notifications">
+          <div class="picture-container">
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+              <span class="bold">Nathan Peterson </span> reacted to your recent post <span class="bold-gray">5 end-game strategies to increase your win rate</span>
+            </div>
+                  
+            <div class="timer">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications">
+          <div class="picture-container">
+            <img src="assets/images/avatar-anna-kim.webp" alt="" class="profile-pic">
+          </div>
+
+          <div class="noti-flexbox">
+            <div class="text-container">
+              <span class="bold">Anna Kim</span> left the group <span class="bold-blue">Chess Club</span>
+            </div>
+                  
+            <div class="timer">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
